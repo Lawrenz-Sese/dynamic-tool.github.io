@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+
+#codeOutput {
+    white-space: pre-wrap;
+    font-family: monospace;
+    background-color: #282C34;
+    padding: 20px;  
+    color: #fff;
+}
+
+.tool-container {
+    width: 80%;
+    height: auto;
+    margin:auto;
+    margin-top: 50px;
+}
+
+.input-fields {
+    margin-bottom: 30px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.input-fields input {
+    padding: 10px;
+    border-radius: 3px;
+    font-size: .9rem;
+    border: 1px solid #cdcdcd;
+    font-weight: 600;
+}
+
+.input-fields select  {
+    padding: 10px 15px 10px 10px;
+    border-radius: 3px;
+    font-size: .9rem;
+    border: 1px solid #cdcdcd;
+    font-weight: 600;
+}
+
+.input-fields button {
+    padding: 5px;
+    width: 100px;
+    border: none;
+    border-radius: 3px;
+    background-color: #ff6961;
+    font-weight: 600;
+    color: #fff;
+}
+
+.input-fields #append {
+    background-color: #77dd77;
+}
+
+.input-fields #copy {
+    background-color: #AEC6CF;
+}

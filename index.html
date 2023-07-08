@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Elements Tool</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="tool-container">
+        <div class="input-fields">
+            <input type="text" id="codeInput" placeholder="Enter dynamic value">
+            <input type="text" id="codeValue" placeholder="Enter value">
+            <select id="codeType">
+                <option value="Text">Text</option>
+                <option value="Image">Image</option>
+                <option value="Trigger">Trigger</option>
+            </select>
+            <button onclick="appendCode()" id="append">Append</button>
+            <button onclick="clearCode()">Clear</button>
+            <button onclick="copyCode()" id="copy">Copy</button>
+        </div>
+
+        <div id="codeOutput">
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
